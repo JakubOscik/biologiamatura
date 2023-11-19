@@ -36,11 +36,22 @@ export default {
 </script>
 
 <style>
+#app {
+  background: #811b6862;
+}
+
 .section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .section {
+    font-size: 1.5em; /* Przykładowa zmiana rozmiaru tekstu dla mniejszych ekranów */
+  }
 }
 </style>

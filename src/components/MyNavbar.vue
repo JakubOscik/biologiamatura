@@ -45,7 +45,7 @@ nav {
   padding: 10px 15px 10px 15px;
   position: fixed;
   z-index: 1000;
-  width: 100%;
+  width: 99%;
 }
 
 ul {
