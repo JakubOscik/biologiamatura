@@ -1,6 +1,6 @@
 <template>
     <div id="contact">
-        <h1>Contact</h1>
+        <h1>Kontakt</h1>
             Jeśli masz jakieś pytania śmiało pisz!<br>
             <br>
             Instagram: <a href="https://instagram.com/matura_biologia?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Mój instagram</a><br>
@@ -38,6 +38,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 form {

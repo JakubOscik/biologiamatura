@@ -1,5 +1,5 @@
 <template>
-    <h1>Course</h1>
+    <h1>Kurs</h1>
 </template>
 
 <script setup>

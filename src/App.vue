@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <MyNavbar />
-    <div id="home" class="section">
-      <MyHome />
-    </div>
     <div id="about" class="section">
       <MyAbout />
     </div>
@@ -18,7 +15,6 @@
 
 <script>
 import MyNavbar from './components/MyNavbar.vue';
-import MyHome from './components/MyHome.vue';
 import MyAbout from './components/MyAbout.vue';
 import MyContact from './components/MyContact.vue';
 import MyCourse from './components/MyCourse.vue';
@@ -27,7 +23,6 @@ import MyCourse from './components/MyCourse.vue';
 export default {
   components: {
     MyNavbar,
-    MyHome,
     MyAbout,
     MyContact,
     MyCourse,
@@ -36,12 +31,17 @@ export default {
 </script>
 
 <style>
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 #app {
   background: #811b6862;
 }
 
 .section {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,9 +49,5 @@ export default {
 }
 
 /* Responsywność */
-@media (max-width: 768px) {
-  .section {
-    font-size: 1.5em; /* Przykładowa zmiana rozmiaru tekstu dla mniejszych ekranów */
-  }
-}
+
 </style>

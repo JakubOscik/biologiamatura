@@ -3,10 +3,9 @@
 <template>
   <nav :class="{ 'sticky': isSticky }">
     <ul>
-      <li @click="scrollToSection('home')">Home</li>
-      <li @click="scrollToSection('about')">About</li>
-      <li @click="scrollToSection('course')">Course</li>
-      <li @click="scrollToSection('contact')">Contact</li>
+      <li @click="scrollToSection('about')">O mnie</li>
+      <li @click="scrollToSection('course')">Kurs</li>
+      <li @click="scrollToSection('contact')">Kontakt</li>
     </ul>
   </nav>
 </template>
